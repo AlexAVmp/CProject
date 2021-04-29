@@ -22,6 +22,10 @@ body {
     background-position: center;
 }
 
+.text {
+    display: flex;
+}
+
 .firstsection__orange {
     display: flex;
     width: 372px;
@@ -64,8 +68,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    margin-top: 3%;
-    margin-left: 60%;
+    margin: 3% 0.1% 0 62%
 }
 
 .secondsection__firstitem h2 {
@@ -550,8 +553,122 @@ body {
 
 
 
-@media (max-width: 1050px) {
+@media (max-width: 1040px) {
+    .secondsection__seconditem h3 {
+        display: none;
+    }
 
+    .secondsection__thirdtext h3 {
+        display: none;
+    }
+
+    .secondsection {
+        height: 550px;
+    }
+
+    .secondsection__secondtext {
+        margin-top: 6%;
+    }
+
+    .secondsection__firstitem {
+        margin-right: 5%;
+        margin-left: 50%;
+    }
 }
+
+@media (max-width: 820px) {
+    .firstsection__orange h2 {
+        font-size: 12px;
+    }
+
+    .secondsection__firstitem h2 {
+        font-size: 15px;
+    }
+
+    .secondsection__firstitem h3 {
+        font-size: 13px;
+    }
+
+    .secondsection__seconditem h2 {
+        font-size: 13px;
+    }
+
+    .secondsection__thirdtext h2 {
+        font-size: 13px;
+    }
+
+    .firstsection__orange {
+        height: 460px;
+    }
+
+    .secondsection {
+        height: 500px;
+    }
+}
+
+@media (max-width: 720px) {
+    .firstsection {
+        height: 700px;
+    }
+
+    .firstsection__orange {
+        height: 310px;
+        margin-top: 390px;
+    }
+
+    .firstsection__orange h2 {
+        font-size: 11px;
+        padding: 0 5% 3% 5%;
+        line-height: 14.5px;
+    }
+
+    .firstsection__image {
+        margin-top: 390px;
+    }
+
+    .secondsection {
+        display: flex;
+        flex-direction: column;
+        margin-left: 1%;
+    }
+
+    .secondsection__secondtext {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-bottom: 20%;
+        margin-top: 0;
+    }
+
+    .secondsection__firstitem {
+        margin: 0;
+    }
+
+    .secondsection__firstitem h2 {
+        margin-top: 4%;
+        margin-block-end: 0;
+    }
+
+    .secondsection__seconditem {
+        width: 98%;
+    }
+
+    .secondsection__thirdtext {
+        width: 98%;
+    }
+}
+
+@media (max-width: 376px) {
+    .firstsection__orange h2 {
+        font-size: 11px;
+        line-height: 11.5px;
+    }
+
+    .secondsection {
+        height: 520px;
+    }
+}
+
+
 
 
