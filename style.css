@@ -389,7 +389,7 @@ body {
     line-height: 26px;
     letter-spacing: 0em;
     text-align: justify;
-    padding: 0 10%;
+    padding: 0 5%;
 }
 
 .seventhsection {
@@ -419,7 +419,7 @@ body {
     font-weight: 700;
     line-height: 26px;
     letter-spacing: 0em;
-    margin-block-end: 0;
+    margin-block-end: 0.4em;
 }
 
 .seventhsection__text p {
@@ -765,6 +765,15 @@ body {
 @media (max-width: 550px) {
     .fourthsection__secondcolumn h2 {
         font-size:  13px;
+    }
+
+    .eighthsection__inner {
+        width: 60%;
+    }
+
+
+    .eighthsection__columns ul li {
+        font-size: 13px;
     }
 }
 
